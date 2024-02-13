@@ -5,6 +5,7 @@ import Home from "./home/Home";
 import Registration from "./registration/Registration";
 import Search from "./registration/Search";
 import Lisp from "./lisp/Lisp";
+import SQL from "./sql/SQL";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/registration" element={<Registration />} />
           <Route path="/login" element={<Search />} />
           <Route path="/lisp" element={<Lisp />} />
+          <Route path="/sql" element={<SQL />} />
         </Route>
       </Routes>
     </BrowserRouter>

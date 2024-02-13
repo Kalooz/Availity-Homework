@@ -10,6 +10,7 @@ function Header() {
         <Nav className="me-auto">
           <Nav.Link href="/registration">Registration Form</Nav.Link>
           <Nav.Link href="/lisp">LISP Checker</Nav.Link>
+          <Nav.Link href="/sql">SQL</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

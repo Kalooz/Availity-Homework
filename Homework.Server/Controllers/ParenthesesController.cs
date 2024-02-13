@@ -13,6 +13,16 @@ namespace ParenthesesCheckerBackend.Controllers
         {
             Stack<char> stack = new Stack<char>();
 
+            if (code.Length <= 2)
+            {
+                return false;
+            }
+
+            if (code.Length >= 3 && code[0] != '(' && code[code.Length - 1] != ')')
+            {
+                return false;
+            }
+
             foreach (char c in code)
             {
                 if (c == '(')
