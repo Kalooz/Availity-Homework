@@ -6,6 +6,7 @@ import Registration from "./registration/Registration";
 import Search from "./registration/Search";
 import Lisp from "./lisp/Lisp";
 import SQL from "./sql/SQL";
+import EDI from "./edi/EDI";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/login" element={<Search />} />
           <Route path="/lisp" element={<Lisp />} />
           <Route path="/sql" element={<SQL />} />
+          <Route path="/edi" element={<EDI />} />
         </Route>
       </Routes>
     </BrowserRouter>

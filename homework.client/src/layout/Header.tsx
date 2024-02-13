@@ -11,6 +11,7 @@ function Header() {
           <Nav.Link href="/registration">Registration Form</Nav.Link>
           <Nav.Link href="/lisp">LISP Checker</Nav.Link>
           <Nav.Link href="/sql">SQL</Nav.Link>
+          <Nav.Link href="/edi">EDI Formatter</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

@@ -69,3 +69,4 @@ E:\Coding\Availity\dotnet-homework\Homework.Server\obj\Debug\net8.0\refint\Homew
 E:\Coding\Availity\dotnet-homework\Homework.Server\obj\Debug\net8.0\Homework.Server.pdb
 E:\Coding\Availity\dotnet-homework\Homework.Server\obj\Debug\net8.0\Homework.Server.genruntimeconfig.cache
 E:\Coding\Availity\dotnet-homework\Homework.Server\obj\Debug\net8.0\ref\Homework.Server.dll
+E:\Coding\Availity\dotnet-homework\Homework.Server\bin\Debug\net8.0\Homework.Server.staticwebassets.runtime.json

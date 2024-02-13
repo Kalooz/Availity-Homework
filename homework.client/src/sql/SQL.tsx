@@ -1,5 +1,5 @@
 import { CopyBlock, monoBlue } from "react-code-blocks";
-import Diagram from "../resources/sql-diagram.png";
+
 
 const answers = [
   {
@@ -67,7 +67,7 @@ function SQL() {
           This database diagram is to be used for the questions that follow:
         </h2>
 
-        <img className="mb-2 w-100" src={Diagram} alt="SQL Diagram" />
+              <img className="mb-2 w-100" src={"/images/image1.png"} alt="SQL Diagram" />
       </div>
 
       <div>

@@ -1,0 +1,163 @@
+[
+  {
+    "SegmentDelimiter": "~",
+    "DataElementDelimiter": "*",
+    "ISA": {
+      "AuthorizationInformationQualifier_1": "00",
+      "AuthorizationInformation_2": "          ",
+      "SecurityInformationQualifier_3": "00",
+      "SecurityInformation_4": "          ",
+      "SenderIDQualifier_5": "14",
+      "InterchangeSenderID_6": "SENDER1        ",
+      "ReceiverIDQualifier_7": "16",
+      "InterchangeReceiverID_8": "RECEIVER1      ",
+      "InterchangeDate_9": "210929",
+      "InterchangeTime_10": "1422",
+      "InterchangeControlStandardsIdentifier_11": "U",
+      "InterchangeControlVersionNumber_12": "00204",
+      "InterchangeControlNumber_13": "000000001",
+      "AcknowledgementRequested_14": "1",
+      "UsageIndicator_15": "T",
+      "ComponentElementSeparator_16": ">"
+    },
+    "Groups": [
+      {
+        "GS": {
+          "CodeIdentifyingInformationType_1": "IN",
+          "SenderIDCode_2": "SENDER1",
+          "ReceiverIDCode_3": "RECEIVER1",
+          "Date_4": "210929",
+          "Time_5": "1422",
+          "GroupControlNumber_6": "000000001",
+          "TransactionTypeCode_7": "X",
+          "VersionAndRelease_8": "004010"
+        },
+        "Transactions": [
+          {
+            "ST": {
+              "TransactionSetIdentifierCode_01": "850",
+              "TransactionSetControlNumber_02": "000000001"
+            },
+            "BEG": {
+              "TransactionSetPurposeCode_01": "00",
+              "PurchaseOrderTypeCode_02": "SA",
+              "PurchaseOrderNumber_03": "XX-1234",
+              "Date_05": "20170301",
+              "AcknowledgmentType_07": "NA"
+            },
+            "PER": [
+              {
+                "ContactFunctionCode_01": "BD",
+                "Name_02": "ED SMITH",
+                "CommunicationNumberQualifier_03": "TE",
+                "CommunicationNumber_04": "8001234567"
+              }
+            ],
+            "TAX": [
+              {
+                "TaxIdentificationNumber_01": "53247765",
+                "LocationQualifier_02": "SP",
+                "LocationIdentifier_03": "CA",
+                "TaxExemptCode_12": "9"
+              }
+            ],
+            "N1Loop": [
+              {
+                "N1": {
+                  "EntityIdentifierCode_01": "BY",
+                  "Name_02": "ABC AEROSPACE",
+                  "IdentificationCodeQualifier_03": "9",
+                  "IdentificationCode_04": "1234567890101"
+                },
+                "N2": [
+                  {
+                    "Name_01": "AIRCRAFT DIVISION"
+                  }
+                ],
+                "N3": [
+                  {
+                    "AddressInformation_01": "2000 JET BLVD"
+                  }
+                ],
+                "N4": [
+                  {
+                    "CityName_01": "FIGHTER TOWN",
+                    "StateorProvinceCode_02": "CA",
+                    "PostalCode_03": "98898"
+                  }
+                ]
+              }
+            ],
+            "PO1Loop": [
+              {
+                "PO1": {
+                  "AssignedIdentification_01": "1",
+                  "QuantityOrdered_02": "25",
+                  "UnitorBasisforMeasurementCode_03": "EA",
+                  "UnitPrice_04": "36",
+                  "BasisofUnitPriceCode_05": "PE",
+                  "ProductServiceIDQualifier_06": "MG",
+                  "ProductServiceID_07": "XYZ-1234"
+                },
+                "MEA": [
+                  {
+                    "MeasurementReferenceIDCode_01": "WT",
+                    "MeasurementQualifier_02": "WT",
+                    "MeasurementValue_03": "10",
+                    "CompositeUnitofMeasure_04": {
+                      "UnitorBasisforMeasurementCode_01": "OZ"
+                    }
+                  }
+                ],
+                "IT8": {
+                  "ProductServiceSubstitutionCode_07": "B0"
+                },
+                "SCHLoop": [
+                  {
+                    "SCH": {
+                      "Quantity_01": "25",
+                      "UnitorBasisforMeasurementCode_02": "EA",
+                      "DateTimeQualifier_05": "106",
+                      "Date_06": "20170615"
+                    }
+                  }
+                ]
+              }
+            ],
+            "CTTLoop": {
+              "CTT": {
+                "NumberofLineItems_01": "1"
+              },
+              "AMT": {
+                "AmountQualifierCode_01": "TT",
+                "MonetaryAmount_02": "900"
+              }
+            },
+            "SE": {
+              "NumberofIncludedSegments_01": "15",
+              "TransactionSetControlNumber_02": "000000001"
+            },
+            "Model": "EdiNation.X12.ASC.004010"
+          }
+        ],
+        "GETrailers": [
+          {
+            "NumberOfIncludedSets_1": "1",
+            "GroupControlNumber_2": "000000001"
+          }
+        ]
+      }
+    ],
+    "IEATrailers": [
+      {
+        "NumberOfIncludedGroups_1": "1",
+        "InterchangeControlNumber_2": "000000001"
+      }
+    ],
+    "Result": {
+      "LastIndex": 19,
+      "Details": [],
+      "Status": "success"
+    }
+  }
+]
