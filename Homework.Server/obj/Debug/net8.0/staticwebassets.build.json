@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rVVPw486ofJrOTD0Bc5mIUCt2RiLch2ol/98uVBb8nk=",
+  "Hash": "aGIn9+CpEAa/AilR4MCQsOMtra5ocfsTMNltwDIGQRM=",
   "Source": "Homework.Server",
   "BasePath": "_content/Homework.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "homework.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
