@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "E:\\Coding\\Availity\\Homework\\Homework.Server\\..\\homework.client",
+"WorkingDirectory": "E:\\Coding\\Availity\\dotnet-homework\\Homework.Server\\..\\homework.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

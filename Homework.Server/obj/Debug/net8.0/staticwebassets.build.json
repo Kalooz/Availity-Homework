@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "NAwKEO0s9oDd5ERCqK0Jk6iMkX0RDjYyVn/Z7aKEZzU=",
+  "Hash": "LjcMEZh3LEvgOZbljnBd7ffrzvTvH94HsdLao9dcoCc=",
   "Source": "Homework.Server",
   "BasePath": "_content/Homework.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "E:\\Coding\\Availity\\Homework\\homework.client\\homework.client.esproj",
+      "Identity": "E:\\Coding\\Availity\\dotnet-homework\\homework.client\\homework.client.esproj",
       "Version": 2,
       "Source": "homework.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
