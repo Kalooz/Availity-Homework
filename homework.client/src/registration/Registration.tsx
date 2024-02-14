@@ -132,7 +132,6 @@ export default function Registration() {
               type="tel"
               id="phone"
               name="phone"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
               onChange={(e) => (user.phoneNumber = e.target.value)}
               required
             />

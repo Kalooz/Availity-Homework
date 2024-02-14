@@ -3,7 +3,7 @@ import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vite";
 import plugin from "@vitejs/plugin-react";
 import fs from "fs";
-import path from "path";
+import path, { resolve } from "path";
 import child_process from "child_process";
 
 const baseFolder =
@@ -51,16 +51,20 @@ if (!fs.existsSync(certFilePath) || !fs.existsSync(keyFilePath)) {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [plugin()],
-    build: {
-        assetsDir: 'Images', // Directory where your static files are located
+    rollupOptions: {
+        external: ["react", "react-router", "react-router-dom"],
+        output: {
+            globals: {
+                react: "React",
+            },
+        },
     },
+  plugins: [plugin()],
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
-    },
-    assetsInclude: ['**/*.csv'],
+  },
   server: {
     proxy: {
       "^/parentheses": {
@@ -70,12 +74,20 @@ export default defineConfig({
       "^/api/EDI/processcsvfile": {
         target: "https://localhost:7258/",
         secure: false,
-          },
-          "^/insurances": {
-              target: "https://localhost:7258/",
-              secure: false,
-          },
+      },
+      "^/insurances": {
+        target: "https://localhost:7258/",
+        secure: false,
+      },
+      },
+    build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        nested: resolve(__dirname, 'nested/index.html'),
+      },
     },
+  },
     port: 5173,
     https: {
       key: fs.readFileSync(keyFilePath),

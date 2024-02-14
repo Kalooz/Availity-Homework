@@ -1,0 +1,1 @@
+E:\Coding\Availity\dotnet-homework\homework.client\obj\Release\homework.client.esproj.CoreCompileInputs.cache
