@@ -8,7 +8,9 @@ const Home = () => {
       <h5 className="mt-3 mx-5  text-center">
         For this assignment, I created a site to host the apps that I built out.
         I used React and Bootstrap for the frontend, and Vite and ASP.Net for
-        the backend.
+        the backend. I also launched and hosted the server locally, added
+        CloudFlare protection to protect my nextwork, and setup a CI/CD pipeline
+        with Jenkins for future updates.
       </h5>
 
       <p className="mt-5">

@@ -1,9 +1,13 @@
 Availity Homework
 
-To run
+Site Hosted Here:
+
+https://availity.michalkaluzny.com/
+
+To run locally:
 
 npm i && npm run dev in homework.clients
 
-and 
+and
 
 dotnet run in homework.server
